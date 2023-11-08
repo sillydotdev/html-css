@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tag</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px" alt="no image">
+    <img src="./htmlimage.jpg" width="400px" alt="no image">       
+
+    <picture>
+        <source media="(min-width = 600px)" srcset="./htmlimage.jpg" />
+        <source media="(min-width = 400px)" srcset="./htmlimage.jpg" />
+        <img src="./htmlimage.jpg" alt="no image">
+    </picture>
+
+    <!-- image map generator -->
+    <img src="htmlimage.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="127,184,59,116" shape="rect">
+        <area onclick="two()" target="" alt="" title="" href="" coords="385,153,43" shape="circle">
+    </map>
+
+    <script>
+        function one() {
+            alert("You clicked on one")
+        }
+        function two() {
+            alert("You clicked on two")
+        }
+    </script>
+</body>
+</html>

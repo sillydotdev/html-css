@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+</head>
+
+<body>
+    <!-- we used to write everything in "div" tag. it is still used -->
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="footer"></div>
+
+    <!-- but more modern way is to use semantics where we have now tags for footer, header etc -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <label for="comment">Enter the description</label>
+            <textarea name="comment" id="5" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="kiwi">Kiwi</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" name="username" id="username" pattern="[a-zA-Z0-9]" placeholder="Username">
+        </div>
+    </main>
+
+    <footer>
+        Copyright CPW. This is a footer of this page
+    </footer>
+</body>
+
+</html>
