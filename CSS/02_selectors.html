@@ -8,15 +8,79 @@
             color: blue;
             background-color: aqua;
         }
+        /* . means class and  is used to target a class.  */
+        .red {
+            color: red;
+            background-color: chartreuse;
+        }
+        /* # means id and is used to target id */
+        #green {
+            color: green;
+            background-color: dodgerblue;
+        }
+        /* Descendent selector */
+        div p {
+            color: black;
+            background-color: olive;
+        }
+        /* Child selector */
+        div > p {
+            color: brown;
+            background-color: chartreuse;
+        }
+        /* Universal selector */
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        /* Pseudo selectors */
+        a:visited {
+            color: brown;
+        }
+        a:link {
+            color: darkgreen;
+        }
+        a:active{
+            background-color: blueviolet;
+        }
+        a:hover {
+            background-color: chartreuse;
+            color: teal;
+        }
+        /* wherever p is the first child, the style will apply.. it is still a pseudo selector */
+        /* p:first-child {                 
+            background-color: dodgerblue;
+        } */
     </style>
     <title>CSS Selectors</title>
 </head>
 <body>
-    <div>
+    <div class="red">
         This is a div tag
     </div>
     <div>
         This is a second div tag
     </div>
+    <div id="green">
+        This is a third div.
+    </div>
+    <div>
+        <!-- This below p is a child div -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus?</p>  
+    </div>
+    <div>
+        <article>
+            <!-- This below p is not a child div but it the DESCENDANT of div-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus?</p>
+        </article>  
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+    <a href="https://www.openai.com">ChatGPT</a>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, id.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, neque?</p>
+    </main>
 </body>
 </html>
