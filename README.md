@@ -22,5 +22,5 @@ This repository is for learning HTML and CSS.
 +++++++++ CSS +++++++++++++++
 1. Basic CSS
 2. Selectors
-3. CSS box model
-4. Fonts in CSS
+3. Fonts in CSS
+4. CSS box model
