@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: overline;
+}
+
+p {
+  font-family: "Poppins", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: red;
+  font-size: 36px;
+  font-weight: 900;
+}

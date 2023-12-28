@@ -1,0 +1,41 @@
+
+
+h2 {
+    color: yellow;
+    background-color: red;
+    text-decoration: line-through;
+}
+
+div {
+    color: brown;
+    background-color: aqua;
+}
+
+p {
+    /* color: blue; */
+    /* background-color: chartreuse; */
+    /* text-align: start; */
+    text-align: left;
+    /* text-decoration: underline; */
+}
+
+a {
+    /* by default there is an underline for an nchor tag,, if you dont want that underline, use this property */
+    text-decoration: none;
+}
+
+#p1 {
+    font-weight: bold;
+}
+
+#p2 {
+    font-weight: bolder;
+}
+
+#p3 {
+    font-weight: lighter;
+}
+
+#p4 {
+    font-weight: 900;
+}
