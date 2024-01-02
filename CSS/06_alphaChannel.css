@@ -1,0 +1,24 @@
+div {
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;  
+}
+
+#box1 {
+    background-color: rgba(0, 0, 255, 0.25);     /* a determines the opacity of the color */
+    width: 100px;
+    height: 100px;
+}
+
+#box2 {
+    background-color: rgba(0, 0, 255, 0.70);
+    width: 100px;
+    height: 100px;
+}
+
+#box3 {
+    background-color: rgba(0, 0, 255, 1);
+    width: 100px;
+    height: 100px;
+}
+
