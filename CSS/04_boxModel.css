@@ -10,7 +10,7 @@
     padding: 10px;
     margin: 25px;
     border: 2px solid black;
-    height: 50px;     /* if we only right height... this includes the height of the class only, doesn't include padding and border*/
+    height: 50px;             /* if we only write height... this includes the height of the class only, doesn't include padding and border*/
     box-sizing: border-box;   /* margin is not included in height or width */
     padding-top: 20px;
 }
@@ -38,3 +38,25 @@
 
 /* Margin collapse is a concept here: Margin collapse means that if you have 2 elements whose margins are overlapping,
 the element with maximum margin will be applied, the other one will be neglected */
+
+div {
+    margin-left: 25px;
+    height: 100px;
+    background-color: bisque;
+    width: 100px;
+    border-width: 2px;
+    border: solid;
+    border-color: brown;
+    text-align: center; /* this will alight text in the center of the box not the whole document. */
+    border-radius: 10px;
+    /* if the height and width of box is a same and we set the property "border-radius: 50%" we will get a circle */
+    /* border-radius: 50%;  */
+    padding-left: 25px;
+    padding-top: 10px;
+    padding: 1px 2px 3px 4px;
+    padding: 15px; 
+    margin-top: 50px;
+    margin: 40px;
+    margin: 20px 30px 35px 40px;
+}
+
