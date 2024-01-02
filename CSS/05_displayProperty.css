@@ -1,0 +1,27 @@
+#box1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#box2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    /* diplay none means item gets hidden from the document and its place is not reserved*/
+    /* display: none;   */
+
+    /* diplay none means item gets hidden from the document and its place is reserved*/
+    /* visibility: hidden; */
+}
+
+#box3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+div {
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;  /* inline-block= we can use all the properties like padding margin width. */
+}
