@@ -1,0 +1,33 @@
+/* percentage id relative to the parent element. e.g., 50% of parent element */
+/* "em" for font-size is relative to parent font-sixe... 1em means equal to parent--2em menas twice the parent */
+/* "em" for width is relative to element's own font size... if parent font-size = 10px, child font size = 2em --- child font-size = 20px */
+/* but if width of child element = 7em and then relative to its own font-size, width = 140px as the child font-size = 20px (20*7) */
+/* "rem" is in acoordance with the font-size of the root element */
+/* "vh" height and width can be set in "vh" which is relative to browser width and height. 1vh usually means 1% of browser height or width */
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: greenyellow;
+    font-size: 10px;
+}
+
+#box2 {
+    /* height: 50px; */
+    width: 50%;     
+    background-color: palevioletred;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 7em;
+    /* width: 7rem; */
+    height: 100vh;
+    width: 150vh;
+}
+
+#box3 {
+    font-size: 20px;
+}
+
+#box4 {
+    font-size: 2em;
+}
+
