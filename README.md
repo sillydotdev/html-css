@@ -24,3 +24,7 @@ This repository is for learning HTML and CSS.
 2. Selectors
 3. Fonts in CSS
 4. CSS box model
+5. Amazon.in Navbar
+6. Simple Traffic light project
+7. Display Property
+8. Alpha Channel
