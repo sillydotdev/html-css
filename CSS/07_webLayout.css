@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+}
+
+button {
+    background-color: #f08804;
+    color: #fff;
+}
+
+input {
+    margin-left: 100px;
+}
+
+#logo {
+    margin-left: 2px;
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 200px ;
+    color: #fff;
+}
+
+.contentBox {
+    height: 20%;
+    width: 100%;
+    border: 2px solid black;
+    /* display: inline-block; */
+    text-align: center;
+    padding-top: 95px;
+}
+
+#content {
+    height: 736px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: #fff;
+    text-align: center;
+}
