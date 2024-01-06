@@ -1,7 +1,7 @@
-# html, css
-This repository is for learning HTML and CSS.
+# HTML, CSS
+### This repository is for learning HTML and CSS.
 
-+++++++++ HTML +++++++++++++++
+#### +++++++++ HTML +++++++++++++++
 1. Basic HTML structure
 2. Heading
 3. Formatting
@@ -19,7 +19,7 @@ This repository is for learning HTML and CSS.
 15. Entities and Code Tag
 
 
-+++++++++ CSS +++++++++++++++
+#### +++++++++ CSS +++++++++++++++
 1. Basic CSS
 2. Selectors
 3. Fonts in CSS
