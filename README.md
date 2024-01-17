@@ -1,5 +1,7 @@
 # HTML, CSS
 ### This repository is for learning HTML and CSS.
+#### Here I will cover the basic and most important concepts of HTML and CSS.
+Finally I will build a project using HTML and CSS only. It might be an Amazon or Netflix clone.
 
 #### +++++++++ HTML +++++++++++++++
 1. Basic HTML structure
